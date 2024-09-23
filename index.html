@@ -1,0 +1,429 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnantaBodha'2K24</title>
+    <link rel="icon" type="image/x-icon" href="./img/anant.jpg" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./vendors/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="./css/skin.css" rel="stylesheet" />
+    <link href="./css/notPC.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <style>
+      /* Global styles for the countdown timer */
+      
+      .time {
+          display: inline-block;
+          margin: 10px;
+          text-align: center;
+      }
+  
+      .time p {
+          font-size: 4rem;
+      }
+  
+      .time span {
+          font-size: 6rem;
+      }
+  
+      /* Media Query for screens smaller than 768px (Tablets, Mobile devices) */
+      @media (max-width: 768px) {
+          /* Adjust countdown spacing and font size */
+          .time p {
+              font-size: 2.5rem;  /* Smaller font for description */
+          }
+  
+          .time span {
+              font-size: 3.0rem;  /* Smaller font for the countdown */
+          }
+  
+          /* Stack countdown timers vertically for better display on mobile */
+          .time {
+              margin-bottom: 10px;
+              display: block;  /* Stack them vertically */
+          }
+      }
+  
+      /* Media Query for screens smaller than 576px (Mobile devices) */
+      @media (max-width: 576px) {
+          /* Further reduce the font size for smaller mobile devices */
+          .time p {
+              font-size: 1.8rem;  /* Even smaller description */
+          }
+  
+          .time span {
+              font-size: 2.8rem;  /* Even smaller countdown */
+          }
+  
+          /* Ensure the timer remains stacked */
+          .time {
+              display: block;
+              margin-bottom: 10px;
+          }
+      }
+  
+      /* Media Query for screens smaller than 400px (Extra small mobile devices) */
+      @media (max-width: 400px) {
+          /* Further compact countdown timer for very small screens */
+          .time p {
+              font-size: 1.8rem;  /* Further smaller description */
+          }
+  
+          .time span {
+              font-size: 2.8rem;  /* Further smaller countdown */
+          }
+  
+          /* Maintain vertical stacking */
+          .time {
+              display: block;
+              margin-bottom: 8px;
+          }
+      }
+  </style>
+  </head>
+
+  <body id="bdy">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/anant.jpg" alt="Logo" class="navbar-logo">
+          <span class="navbar-text extraBold0">UCEA-CSE</span>
+        </a>
+        
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" id="navItem1" href="#herodiv">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navItem5" href="#aboutdiv">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navItem3" href="#event">Events</a>
+          </li>
+          
+
+          <li class="nav-item">
+            <a class="nav-link" id="navItem5" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- Your other HTML content -->
+
+
+    
+    <main>
+      <!-- Hero div -->
+      <div id="herodiv" class="vhcontainer myFlex centerFlex">
+        
+        <div id="herotext">
+          
+          <video autoplay muted loop id="myVideo" >
+            <source src="back2.mp4" type="video/mp4" />
+          </video>
+          
+          
+
+          <h1 class="logo">
+            <b><span class="z">ANANTA </span><span>BODHA'</span><span>2K</span>24</b>
+          </h1>
+          
+          
+          <h3 class="revo gradient3">Endless knowledge fuels limitless discovery</h3>
+          <button id="registerHeroButton" class="btn-large " onclick="openInNewTab('')">Register Now</button>
+          <div class="myFlex" id="socialMediaSection">
+            <i onclick="openInNewTab('https://www.instagram.com/ananta_bodha2k24?igsh=ZmFwdWdja2oxb2h1', '_blank').focus();" class="socialMediaIcons bi bi-instagram gradient3"></i>
+            <i onclick="openInNewTab('mailto:anantabodha2k24@gmail.com');" class="socialMediaIcons bi bi-envelope-fill gradient3"></i>
+
+            <i onclick="openInNewTab('https://www.google.com/maps/place/University+College+of+Engineering/@12.5891198,79.2728806,15z/data=!4m2!3m1!1s0x0:0xeb0a13ba6bdb5774?sa=X&ved=1t:2428&ictx=111', '_blank').focus();" class="socialMediaIcons bi bi-geo-alt-fill gradient3"></i>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- About div -->
+  <div>
+        
+      <div id="aboutdiv" class="vhcontainer myFlex centerFlex" style="height: 70vh">
+        <div class="column2flex">
+          <img src="" class="columnImage" onclick="window.open('', '_blank').focus();" />
+          <div class="myFlex centerFlex columnText">
+            <p>
+              📅 Save the Date: October 25, 2024 📅<br />
+              <span class="gradient0 extraBold">University College of Engineering Arni</span> proudly presents <span class="gradient0 extraBold">Ananta Bodha</span>, National Level Symposium Organized by <span class="gradient0 extraBold">Computer Science and Engineering.</span> Join us for a day of innovation and exploration as we delve into the latest advancements and future trends in technology. Mark your calendars and get ready for an event that promises to be both enlightening and inspiring. We look forward to making this a memorable occasion with you!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="myHeader extraBold gradient0">Registration Ends In</h2>
+      <div class="time-container">
+        <div class="time">
+          <p>Days</p>
+          <span id="days" class="gradient0 extraBold">00</span>
+        </div>
+        <div class="time">
+          <p>Hours</p>
+          <span id="hours" class="gradient0 extraBold">00</span>
+        </div>
+        <div class="time">
+          <p>Minutes</p>
+          <span id="minutes" class="gradient0 extraBold">00</span>
+        </div>
+        <div class="time">
+          <p>Seconds</p>
+          <span id="seconds" class="gradient0 extraBold">00</span>
+        </div>
+      </div>
+
+   <!----
+      <h2 class="myHeader extraBold gradient0">Events</h2>
+      <div id="eventdiv" class="triangle">
+        <div class="myFlex centerFlex columnText">
+          <ul class="columnList">
+            <span class="gradient0 extraBold">Technical</span>
+            <li onclick="openInNewTab('./page0.html')">
+              <h4>Paper Presentation</h4>
+            </li>
+            <li onclick="openInNewTab('./page1.html')">
+              <h4>Quiz</h4>
+            </li>
+            <li onclick="openInNewTab('./page2.html')">
+              <h4>Web development</h4>
+            </li>
+            <li onclick="openInNewTab('./page3.html')">
+              <h4>poster making</h4>
+            </li>
+            <li onclick="openInNewTab('./page4.html')">
+              <h4>Bedugging</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="myFlex centerFlex columnText">
+          <ul class="columnList">
+            <span class="gradient0 extraBold">Non-Technical</span>
+            <li onclick="openInNewTab('./page5.html')">
+              <h4>treasure</h4>
+            </li>
+            <li onclick="openInNewTab('./page6.html')">
+              <h4>connections</h4>
+            </li>
+            <li onclick="openInNewTab('./page7.html')">
+              <h4>mmmm</h4>
+            </li>
+            <li onclick="openInNewTab('./page8.html')">
+              <h4>uuu</h4>
+            </li>
+            <li onclick="openInNewTab('./page9.html')">
+              <h4>yyyyy</h4>
+            </li>
+          </ul>
+        </div>
+      </div>-->
+      <div id="event">
+      <h2 class="myHeader extraBold gradient0" style="margin-bottom: 3rem">TECHNICAL EVENTS</h3>
+
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Paper Presentation</h3>
+      <div id="paperpresentation" class="myFlex centerFlex">
+        <div class="column2flex">
+          <img src="./img/pp.jpg" class="columnImage" />
+          <div class="myFlex centerFlex columnText">
+            <p><br /><button onclick="window.location.assign('./page0.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Mind Maze</h3>
+      <div id="code&debugging" class="myFlex centerFlex">
+        <div class="column2flexinv">
+          <div class="myFlex centerFlex columnText row0" style="margin-top: 0 !important">
+            <p style="margin: 2rem; margin-top: 0 !important; margin-left: 0; margin-right: 0"><br /><button  onclick="window.location.assign('./page1.html')"class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+          <img src="./img/tq.jpg" class="columnImage row1" />
+        </div>
+      </div>
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Quite Site</h3>
+      <div id="sharktank" class="myFlex centerFlex">
+        <div class="column2flex">
+          <img src="./img/wb.jpg" class="columnImage" />
+          <div class="myFlex centerFlex columnText">
+            <p><br /><button onclick="window.location.assign('./page2.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Code Hunt</h3>
+      <div id="Techons" class="myFlex centerFlex">
+        <div class="column2flexinv">
+          <div class="myFlex centerFlex columnText row0" style="margin-top: 0 !important">
+            <p style="margin: 2rem; margin-top: 0 !important; margin-left: 0; margin-right: 0"><br /><button onclick="window.location.assign('./page3.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+          <img src="./img/ch.jpg" class="columnImage row1" />
+        </div>
+      </div>
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Design Drive</h3>
+      <div id="Technocart" class="myFlex centerFlex">
+        <div class="column2flex">
+          <img src="./img/dd.jpg" class="columnImage" />
+          <div class="myFlex centerFlex columnText">
+            <p><br /><button onclick="window.location.assign('./page4.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br />
+      <h2 class="myHeader extraBold gradient0" style="margin-bottom: 3rem">NON-TECHNICAL EVENTS</h3>
+        <br /><br />
+
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Treasure Hunt</h3>
+      <div id="Gaming" class="myFlex centerFlex">
+        <div class="column2flex">
+          <img src="./img/tt.jpg" class="columnImage" />
+          <div class="myFlex centerFlex columnText">
+            <p><br /><button onclick="window.location.assign('./page5.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Shutter Sense</h3>
+      <div id="Multimedia" class="myFlex centerFlex">
+        <div class="column2flexinv">
+          <div class="myFlex centerFlex columnText row0" style="margin-top: 0 !important">
+            <p style="margin: 2rem; margin-top: 0 !important; margin-left: 0; margin-right: 0"><br /><button onclick="window.location.assign('./page6.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+          <img src="./img/ss.jpg" class="columnImage row1" />
+        </div>
+      </div>
+
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Rhythm Riddle</h3>
+      <div id="cineOtaku" class="myFlex centerFlex">
+        <div class="column2flex">
+          <img src="./img/page8/pp.jpg" class="columnImage" />
+          <div class="myFlex centerFlex columnText">
+            <p><br /><button onclick="window.location.assign('./page7.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+        </div>
+      </div>
+
+      <br /><br />
+
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Spherical Cluster</h3>
+      <div id="cricMania" class="myFlex centerFlex">
+        <div class="column2flex">
+          <img src="./img/page9/cric.jpg" class="columnImage" />
+          <div class="myFlex centerFlex columnText">
+            <p style="margin: 2rem; margin-top: 0 !important; margin-left: 0; margin-right: 0"><br /><button onclick="window.location.assign('./page8.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <h3 class="myHeader extraBold gradient3" style="margin-bottom: 3rem">Free Fire</h3>
+      <div id="futsal" class="myFlex centerFlex">
+        <div class="column2flexinv">
+          <div class="myFlex centerFlex columnText row0" style="margin-top: 0 !important">
+            <p style="margin: 2rem; margin-top: 0 !important; margin-left: 0; margin-right: 0"><br /><button onclick="window.location.assign('./page9.html')" class=" extraBold knowmore1" style="margin: 1rem">Know more</button></p>
+          </div>
+          <img src="./img/page9/pp.jpg" class="columnImage row1" />
+        </div>
+      </div>
+    </div>
+      <br /><br />
+      
+      <br /><br />
+      <h2 class="myHeader extraBold gradient0">Registration protocol</h2>
+      <div class="generalDiv " style=" width: max-content; max-width: 90%; margin: auto; position: relative; z-index: 10001">
+      <p style="text-align: center;">
+
+        <b>Registration: </b>Ensure you register in advance and confirm your attendance. <br/><br/>
+       
+        <b>Respectful Engagement: </b>Engage respectfully with speakers and fellow participants. Allow for questions and discussions.<br/><br/>
+       
+        <b>Adherence to Time Limits: </b>If presenting, stick to your allotted time to allow for a smooth schedule.<br/><br/>
+       
+       <b>Dress Code: </b>Follow any specified dress code to maintain professionalism.<br/><br/>
+       
+       <b> ID Card :</b> participations must wear there college ID Card.on time for all sessions, including keynote speeches and panel discussions.<br/><br/>
+       
+       <b>Food:</b> payment must be done upon registration for veg and non-veg according to the prize list.<br/><br/></p>
+      </div>
+      <br /><br />
+
+      
+      
+    </main>
+
+    <!-- Co ordinator List -->
+    <div id="contact">
+      <h2 class="myHeader extraBold gradient3">Contacts</h2>
+      
+      <br />
+      <h5 class="myHeader extrabold1 gradient0">Student Co-ordinators</h5>
+      <div class="triangle">
+        <div>
+          <h5 class="extrabold1">Savitha.R</h5>
+          <h6>Student's president</h6>
+        </div>
+        <div>
+          <h5 class="extrabold1 centerFlex">Pavithra.G</h5>
+          <h6>Student's Secretary</h6>
+        </div>
+        <div>
+          <h5 class="extrabold1 ">Kishore.G</h5>
+          <h6>Student's Treasure</h6>
+          <h6>123456</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <br /><br />
+
+    <script type="text/javascript">
+      function countDown() {
+        const now = new Date()
+        const targetTime = new Date("October 25, 2024, 00:00:00")
+
+        const diff = targetTime - now
+
+        const d = Math.floor(diff / (24 * 60 * 60 * 1000))
+        const h = Math.floor(diff / (60 * 60 * 1000)) % 24
+        const m = Math.floor(diff / (60 * 1000)) % 60
+        const s = Math.floor(diff / 1000) % 60
+
+        document.getElementById("days").innerHTML = d
+        document.getElementById("hours").innerHTML = ("0" + h).slice(-2)
+        document.getElementById("minutes").innerHTML = ("0" + m).slice(-2)
+        document.getElementById("seconds").innerHTML = ("0" + s).slice(-2)
+      }
+
+      setInterval(countDown, 1000)
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/auto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
