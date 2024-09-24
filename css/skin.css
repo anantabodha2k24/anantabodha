@@ -59,7 +59,7 @@ main {
 
 @font-face {
   font-family: verminVibes;
-  src: url(./fonts/VerminVibesCorrupto-0VVP.ttf);
+  src: url(./fonts/Nekat-7O6nA.otf);
 }
 @font-face {
   font-family: verminVibes1;
@@ -430,7 +430,7 @@ html {
 #herologo {
   width: 200px !important;
   max-width: 70% !important;
-  margin-bottom: -50px;
+  margin-bottom: 10px;
 }
 
 .myHeader {
