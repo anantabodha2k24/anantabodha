@@ -16,7 +16,7 @@
   left: 0;
   width: 100%; /* Makes sure the navbar spans the full width */
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Optional: blur effect for the background */
+  backdrop-filter: blur(5px); /* Optional: blur effect for the background */
   font-family: verminVibes;
   z-index: 1000; /* Ensures it is above other content */
   height: 60px; /* Height of the navbar */
